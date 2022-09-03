@@ -13,37 +13,37 @@ Ouvrez l'application [DroidCafeOptions](https://github.com/khammami/android-fund
 
 Quel est le nom du fichier dans lequel vous créez des éléments de menu d'options? Choisissez-en un:
 
-* menu.java
-* menu_main.xml
-* activity_main.xml
-* content_main.xml
+- [ ] menu.java
+- [ ] menu_main.xml
+- [ ] activity_main.xml
+- [ ] content_main.xml
 
 ### **Question 2**
 
 Quelle méthode est appelée quand un élément du menu d'options est cliqué? Choisissez-en un:
 
-* `onOptionsItemSelected(MenuItem item)`
-* `onClick(View view)`
-* `onContextItemSelected()`
-* `onClickShowAlert()`
+- [ ] `onOptionsItemSelected(MenuItem item)`
+- [ ] `onClick(View view)`
+- [ ] `onContextItemSelected()`
+- [ ] `onClickShowAlert()`
 
 ### **Question 3**
 
 Lequel des énoncés suivants définit le titre d'un dialogue d'alerte? Choisissez-en un:
 
-* `myAlertBuilder.setMessage("Alert");`
-* `myAlertBuilder.setPositiveButton("Alert");`
-* `myAlertBuilder.setTitle("Alert");`
-* `AlertDialog.Builder myAlertBuilder = new AlertDialog.Builder("Alert");`
+- [ ] `myAlertBuilder.setMessage("Alert");`
+- [ ] `myAlertBuilder.setPositiveButton("Alert");`
+- [ ] `myAlertBuilder.setTitle("Alert");`
+- [ ] `AlertDialog.Builder myAlertBuilder = new AlertDialog.Builder("Alert");`
 
 ### **Question 4**
 
 Où créez-vous un `DialogFragment` pour un sélecteur de date? Choisissez-en un:
 
-* Dans la méthode `onCreate()` de l'activité d'hébergement.
-* Dans la méthode `onCreateContextMenu()` dans `Fragment`.
-* Dans la méthode `onCreateView()` de l'extension `DialogFragment`.
-* Dans la méthode `onCreateDialog()` dans l'extension de `DialogFragment`.
+- [ ] Dans la méthode `onCreate()` de l'activité d'hébergement.
+- [ ] Dans la méthode `onCreateContextMenu()` dans `Fragment`.
+- [ ] Dans la méthode `onCreateView()` de l'extension `DialogFragment`.
+- [ ] Dans la méthode `onCreateDialog()` dans l'extension de `DialogFragment`.
 
 ## Soumettez votre application pour la notation
 
