@@ -2,7 +2,11 @@
 
 ## Créer et exécuter une application
 
-Ouvrez l'application [DroidCafeOptions](https://github.com/khammami/android-fundamentals-exycodelabs/tree/master/DroidCafeOptions) que vous avez créée dans cette leçon.
+Ouvrez l'application [DroidCafeOptions](https://github.com/khammami/android-fundamentals-exycodelabs/tree/droid-cafe-optionsi/android-fundamentals-exycodelabs/tree/master/DroidCafeOptions) que vous avez créée dans cette leçon.
+
+> Pour cloner la branche `droid-cafe-options` du projet [DroidCafeOptions](https://github.com/khammami/android-fundamentals-exycodelabs/tree/droid-cafe-options), vous pouvez utiliser la commande suivante :
+> 
+> `git clone --branch droid-cafe-options [lien-repo.git]`
 
 1. Ajoutez un bouton **Date** sous les options de diffusion pour afficher le sélecteur de date.
 2. Afficher la date choisie par l'utilisateur dans un message `Toast`.
