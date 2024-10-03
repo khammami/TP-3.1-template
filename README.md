@@ -1,12 +1,19 @@
-# Travail à faire
+# Travail à faire (Compte Rendu)
+
+> [!WARNING]  
+> Veuillez suivre les instructions détaillées du codelab **[Comment soumettre votre compte rendu](https://codelabs-enetcom.khammami.tn/codelabs/soumettre-compte-rendu/)** pour soumettre votre compte rendu.
 
 ## Créer et exécuter une application
 
 Ouvrez l'application [DroidCafeOptions](https://github.com/khammami/android-fundamentals-exycodelabs/tree/droid-cafe-optionsi/android-fundamentals-exycodelabs/tree/master/DroidCafeOptions) que vous avez créée dans cette leçon.
 
+> [!TIP]
+>
 > Pour cloner la branche `droid-cafe-options` du projet [DroidCafeOptions](https://github.com/khammami/android-fundamentals-exycodelabs/tree/droid-cafe-options), vous pouvez utiliser la commande suivante :
-> 
-> `git clone --branch droid-cafe-options [lien-repo.git]`
+>
+> ```bash
+> git clone --branch droid-cafe-options [lien-repo.git]
+> ```
 
 1. Ajoutez un bouton **Date** sous les options de diffusion pour afficher le sélecteur de date.
 2. Afficher la date choisie par l'utilisateur dans un message `Toast`.
@@ -15,46 +22,56 @@ Ouvrez l'application [DroidCafeOptions](https://github.com/khammami/android-fund
 
 ### **Question 1**
 
-Quel est le nom du fichier dans lequel vous créez des éléments de menu d'options? Choisissez-en un:
+**Q1.** Quel est le nom du fichier dans lequel vous créez des éléments de menu d'options?
 
-- [ ] menu.java
-- [ ] menu_main.xml
-- [ ] activity_main.xml
-- [ ] content_main.xml
+📋 **A1.** Choisissez-en un:
+
+* [ ] **(a)** menu.java
+* [ ] **(b)** menu_main.xml
+* [ ] **(c)** activity_main.xml
+* [ ] **(d)** content_main.xml
 
 ### **Question 2**
 
-Quelle méthode est appelée quand un élément du menu d'options est cliqué? Choisissez-en un:
+**Q2.** Quelle méthode est appelée quand un élément du menu d'options est cliqué?
 
-- [ ] `onOptionsItemSelected(MenuItem item)`
-- [ ] `onClick(View view)`
-- [ ] `onContextItemSelected()`
-- [ ] `onClickShowAlert()`
+📋 **A2.** Choisissez-en un:
+
+* [ ] **(a)** `onOptionsItemSelected(MenuItem item)`
+* [ ] **(b)** `onClick(View view)`
+* [ ] **(c)** `onContextItemSelected()`
+* [ ] **(d)** `onClickShowAlert()`
 
 ### **Question 3**
 
-Lequel des énoncés suivants définit le titre d'un dialogue d'alerte? Choisissez-en un:
+**Q3.** Lequel des énoncés suivants définit le titre d'un dialogue d'alerte?
 
-- [ ] `myAlertBuilder.setMessage("Alert");`
-- [ ] `myAlertBuilder.setPositiveButton("Alert");`
-- [ ] `myAlertBuilder.setTitle("Alert");`
-- [ ] `AlertDialog.Builder myAlertBuilder = new AlertDialog.Builder("Alert");`
+📋 **A3.** Choisissez-en un:
+
+* [ ] **(a)** `myAlertBuilder.setMessage("Alert");`
+* [ ] **(b)** `myAlertBuilder.setPositiveButton("Alert");`
+* [ ] **(c)** `myAlertBuilder.setTitle("Alert");`
+* [ ] **(d)** `AlertDialog.Builder myAlertBuilder = new AlertDialog.Builder("Alert");`
 
 ### **Question 4**
 
-Où créez-vous un `DialogFragment` pour un sélecteur de date? Choisissez-en un:
+**Q4.** Où créez-vous un `DialogFragment` pour un sélecteur de date?
 
-- [ ] Dans la méthode `onCreate()` de l'activité d'hébergement.
-- [ ] Dans la méthode `onCreateContextMenu()` dans `Fragment`.
-- [ ] Dans la méthode `onCreateView()` de l'extension `DialogFragment`.
-- [ ] Dans la méthode `onCreateDialog()` dans l'extension de `DialogFragment`.
+📋 **A4.** Choisissez-en un:
 
-## Soumettez votre application pour la notation
+* [ ] **(a)** Dans la méthode `onCreate()` de l'activité d'hébergement.
+* [ ] **(b)** Dans la méthode `onCreateContextMenu()` dans `Fragment`.
+* [ ] **(c)** Dans la méthode `onCreateView()` de l'extension `DialogFragment`.
+* [ ] **(d)** Dans la méthode `onCreateDialog()` dans l'extension de `DialogFragment`.
 
-Vérifiez que l'application présente les fonctionnalités suivantes:
+## Notes
 
-* Le sélecteur de date est ajouté en tant que `DialogFragment`.
-* Cliquez sur le bouton **Date** (reportez-vous à la gauche de la figure ci-dessous) dans `OrderActivity` pour afficher le sélecteur de date (reportez-vous au centre de la figure).
-* Cliquez sur le bouton **OK** dans le sélecteur de date pour afficher un message `Toast` dans `OrderActivity` avec la date choisie (reportez-vous au côté droit de la figure).
-
-![screenshot](./images/screenshot.png)
+> [!NOTE]  
+>
+> Vérifiez que l'application présente les fonctionnalités suivantes:
+>
+> * Le sélecteur de date est ajouté en tant que `DialogFragment`.
+> * Cliquez sur le bouton **Date** (reportez-vous à la gauche de la figure ci-dessous) dans `OrderActivity` pour afficher le sélecteur de date (reportez-vous au centre de la figure).
+> * Cliquez sur le bouton **OK** dans le sélecteur de date pour afficher un message `Toast` dans `OrderActivity` avec la date choisie (reportez-vous au côté droit de la figure).
+>
+> ![screenshot](./images/screenshot.png)
